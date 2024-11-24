@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container register-container">
+            <img src="signup_image.jpg" alt="Signup Image" class="form-image">
+            <h2>Sign up</h2>
+            <p>Please Sign up to login.</p>
+            <form action="register.php" method="POST" class="form">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="text" name="mobile" placeholder="Mobile Number" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <div class="options">
+                    <label>
+                        <input type="checkbox" name="remember"> Remember me
+                    </label>
+                    <button type="submit">Sign Up</button>
+                </div>
+                <p>Already have an account? <a href="login.html">Login</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
